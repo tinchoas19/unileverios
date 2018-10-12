@@ -1,0 +1,127 @@
+page-first {
+    .scroll-content{
+        background-image: url('../../assets/imgs/img/bg-mobile-inicio.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    div.logo{
+        text-align: center;
+        //background-image: url('../../assets/imgs/img/logo-uni-final.png');
+        //position: absolute;
+        width: 18%;
+        margin: 0 auto !important;
+    }
+    
+    .botones-index{
+        margin-top: 78%;
+    }
+    
+    a{
+        text-decoration: none !important;
+    }
+
+    .botones-index a.btn-como{
+        background: #78a8a6;
+    }
+
+    .botones-index a.btn-empezar{
+        background: #a9c449;
+    }
+
+    .botones-index a.btn-como, .botones-index a.btn-empezar{
+        color: #FFF;
+        border-radius: 25px;
+        width: 185px;
+        margin: 15px auto;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }   
+    
+}
+.custom-alert{
+    .alert-wrapper{
+        height: 380px !important;
+        margin: 3rem 1rem 0;
+        //position: relative;
+        //width: auto;
+        border-radius: 25px !important;
+        text-align: center !important;
+        border: none;
+        background: #78a8a6 !important;
+        color: #FFF;
+        .alert-title{
+            text-align: center !important;
+        }
+        .alert-message{
+            height: 290px !important;
+            color: #FFF;
+            font-size: 13px;
+        }
+        div.alert-button-group{
+            border-top: 0;
+            display: flex;
+            align-items: center;
+            button.alert-button{
+                background: #a9c449;
+                color: #FFF;
+                border-radius: 25px;
+                width: 185px;
+                margin: 15px auto;
+                padding: 10px;
+                .button-inner{
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}
+.custom-alert-empezar{
+    .alert-wrapper{
+        margin: 3rem 1rem 0;
+        //position: relative;
+        //width: auto;
+        border-radius: 25px !important;
+        text-align: center !important;
+        border: none;
+        background: #78a8a6 !important;
+        color: #FFF;
+        .alert-title{
+            text-align: center !important;
+        }
+        div.alert-input-wrapper{
+            input.alert-input{
+                background-color: transparent !important;
+                border: none;
+                border-bottom: 2px solid #fff;
+                border-radius: 0;
+                text-align: center;
+                padding-bottom: 0;
+                font-size: 13px;
+            }
+        }
+        div.alert-button-group{
+            border-top: 0;
+            display: flex;
+            align-items: center;
+            button.alert-button{
+                background: #a9c449;
+                color: #FFF;
+                border-radius: 25px;
+                width: 185px;
+                margin: 15px auto;
+                padding: 10px;
+                .button-inner{
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}

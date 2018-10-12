@@ -1,0 +1,81 @@
+<ion-content>
+  <div id="ionball"></div>
+  <img class="foto" *ngIf="state" [src]="userScreenshoot"/>
+  <div class="fish" id="fish">
+    <div id="fish2">
+      <img src="../../assets/imgs/pez2.png" />
+    </div>
+    <div id="fish1">
+      <img src="../../assets/imgs/pez1.png" />
+    </div>
+    <div id="fish3">
+      <img src="../../assets/imgs/pez3.png" />
+    </div>
+  </div>
+  <div class="fish2" id="fishRight">
+    <div id="fish5">
+      <img src="../../assets/imgs/pez5.png" />
+    </div>
+    <div id="fish6">
+      <img src="../../assets/imgs/pez6.png" />
+    </div>
+    <div id="fish4">
+      <img src="../../assets/imgs/pez4.png" />
+    </div>
+  </div>
+  <div id="bubbles">
+    <div class="bubble x1">
+      <img src="../../assets/imgs/burbuja1.png" alt="">
+    </div>
+    <div class="bubble x2">
+      <img src="../../assets/imgs/burbuja2.png" alt="">      
+    </div>
+    <div class="bubble x3">
+      <img src="../../assets/imgs/burbuja1.png" alt="">      
+    </div>
+    <div class="bubble x4">
+      <img src="../../assets/imgs/burbuja2.png" alt="">            
+    </div>
+    <div class="bubble x5">
+      <img src="../../assets/imgs/burbuja1.png" alt="">
+    </div>
+    <div class="bubble x6">
+      <img src="../../assets/imgs/burbuja2.png" alt="">            
+    </div>
+    <div class="bubble x7">
+      <img src="../../assets/imgs/burbuja1.png" alt="">
+    </div>
+    <div class="bubble x8">
+      <img src="../../assets/imgs/burbuja2.png" alt="">            
+    </div>
+    <div class="bubble x9">
+      <img src="../../assets/imgs/burbuja1.png" alt="">
+    </div>
+  </div>
+<!--   <ion-fab right top samll>
+    <button ion-fab color="light"><ion-icon name="switch"></ion-icon></button>
+  </ion-fab>
+
+  <ion-fab left top samll>
+    <button ion-fab color="light"><ion-icon name="exit"></ion-icon></button>
+  </ion-fab>
+
+  <ion-fab right bottom samll>
+    <button (click)="refresh()" ion-fab color="light"><ion-icon name="archive"></ion-icon></button>
+  </ion-fab> -->
+  <ion-fab bottom center samll>
+    <button ion-fab color="danger" *ngIf="buttonvisible" (click)="takePhoto()"></button>
+  </ion-fab>
+<!--   <ion-fab left top samll>
+      <button (click)="takeScreenshotGetUri()" *ngIf="!state" ion-fab color="light">URI</button>
+    </ion-fab> -->
+  <!-- <ion-fab left bottom samll>
+    <button (click)="subiryparticipar()" *ngIf="state" ion-fab color="light">SUBIR</button>
+  </ion-fab> -->
+<!--   <ion-fab right bottom samll>
+    <button (click)="descartar()" *ngIf="state" ion-fab color="light">DESCARTAR</button>
+  </ion-fab> -->
+  <!-- <ion-fab left bottom samll>
+    <button (click)="descargar()" *ngIf="state" ion-fab color="light">BAJAR</button>
+  </ion-fab> -->
+</ion-content>

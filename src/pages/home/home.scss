@@ -1,0 +1,347 @@
+page-home {
+    #ionball {
+        //position: absolute;
+        //bottom: 0px;
+        //left: calc(50% - 50px);
+        width: 100%;
+        height: 100%; 
+        background-image: url('../../assets/imgs/bg-filtro.png') !important;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #fish,
+#fishRight {
+  top: 1em;
+}
+/* Fish Animation */
+.fish, 
+.fish2{
+  overflow:hidden;
+}
+.fish {
+    padding-top: 20px;
+    width: 235px;
+    position: absolute; 
+    animation: swim 10s;
+    animation: swim 10s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.fish2 {
+  padding-top: 30px;
+  width: 235px;
+  height: 200px;
+  position: absolute; 
+  animation: swimRight 10s;
+  animation: swimRight 10s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+#fish1,
+#fish2,
+#fish3,
+#fish4,
+#fish5,
+#fish6 {
+  animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+#fish1{
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+#fish2{
+    animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    margin-left: 25px;
+}
+#fish3{
+    animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+#fish4{
+    animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  margin-left: 30px;
+    margin-top: 15px;
+}
+#fish5{
+    animation-delay: 0.1s;
+    animation-delay: 0.1s;
+  margin-left: 15px;
+}
+#fish6{
+    animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    margin-top: 5px;
+}
+
+    .bubble {
+        width: 20px;
+        height: 20px;
+        background: #00eeff;
+        border-radius: 200px;
+        position: absolute;
+    }
+    .x1 {
+        background: #00eeff;        
+        transform: scale(0.9);
+        opacity: 0.6;
+        animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    }
+    
+    .x2 {
+        background: #00eeff;        
+        left: 90px;
+        transform: scale(0.6);
+        opacity: 0.6;
+        animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+        animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+        animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    }
+    .x3 {
+        background: #00eeff;        
+        left: 120px;
+        transform: scale(0.8);
+        transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0.6;
+        animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    }
+    .x4 {
+        background: #00eeff;        
+        left: 60px;
+        transform: scale(0.75);
+        opacity: 0.65;
+        animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    }
+    .x5 {
+        background: #00eeff;        
+        left: 150px;
+        transform: scale(0.8);
+        opacity: 0.6; 
+        animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+        animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+        animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    }
+    .x6 {
+        background: #00eeff;        
+        left: 20px;
+        transform: scale(0.7);
+        opacity: 0.6; 
+        animation: moveclouds 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: moveclouds 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: moveclouds 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    }
+    .x7 {
+        background: #00eeff;        
+        left: 210px;
+        transform: scale(0.9);
+        opacity: 0.6; 
+        animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+        animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+        animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    }
+    .x8 {
+        background: #00eeff;        
+        left: 88px;
+        transform: scale(0.4);
+        opacity: 0.6; 
+        animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+        animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+        animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    }
+    .x9 {
+        background: #00eeff;        
+        left: 235px;
+        transform: scale(0.9);
+        opacity: 0.6; 
+        animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    }
+
+    img.foto{
+        border: 5px solid #365454;
+        width: 80%;
+        margin-top: 2em;
+    }
+    button.fab{
+        border: 4px solid map-get($colors, light)
+    }
+}
+@keyframes swim
+{
+    0% {margin-left: -25%;}
+    90% {margin-left: 115%;}
+    100% {margin-left: 115%;}
+}
+@keyframes swim
+{
+    0% {margin-left: -25%;}
+    90% {margin-left: 115%;}
+  100% {margin-left: 115%;}
+}
+@keyframes swimRight
+{
+  0% {margin-left: 115%;}
+  90% {margin-left: -35%;}
+  100% {margin-left: -35%;}
+}
+@keyframes swimRight
+{
+  0% {margin-left: 115%;}
+  90% {margin-left: -35%;}
+  100% {margin-left: -35%;}
+}
+@keyframes bounce {
+    0%, 50%, 100% {
+      transform: translateY(0);
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+    75% {
+      transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    0%, 50%, 100% {
+      transform: translateY(0);
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+    75% {
+      transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  }
+  @keyframes bounce {
+    0%, 50%, 100% {
+      transform: translateY(0);
+      transform: translateY(0);
+      transform: translateY(0);
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+    75% {
+      transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+      transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  }
+@keyframes moveclouds { 
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes moveclouds {     
+    0% { 
+        top: 500px;
+    }
+
+    100% { 
+        top: -500px;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+@keyframes moveclouds {
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+
+.custom-alert{
+    .alert-wrapper{
+        height: 380px !important;
+        margin: 3rem 1rem 0;
+        //position: relative;
+        //width: auto;
+        border-radius: 25px !important;
+        text-align: center !important;
+        border: none;
+        background: #78a8a6 !important;
+        color: #FFF;
+        .alert-title{
+            text-align: center !important;
+        }
+        .alert-message{
+            height: 290px !important;
+            color: #FFF;
+            font-size: 13px;
+        }
+        div.alert-button-group{
+            border-top: 0;
+            display: flex;
+            align-items: center;
+            button.alert-button{
+                background: #a9c449;
+                color: #FFF;
+                border-radius: 25px;
+                width: 185px;
+                margin: 15px auto;
+                padding: 10px;
+                .button-inner{
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}
